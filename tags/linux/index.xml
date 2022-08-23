@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on GILBERT ROBERT M</title>
+    <link>https://mutur4.github.io/tags/linux/</link>
+    <description>Recent content in Linux on GILBERT ROBERT M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>sas</copyright>
+    <lastBuildDate>Sun, 21 Aug 2022 04:02:29 -0400</lastBuildDate><atom:link href="https://mutur4.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Process Injection - (Part 1)</title>
+      <link>https://mutur4.github.io/posts/linux-malware-development/process-injection/</link>
+      <pubDate>Sun, 21 Aug 2022 04:02:29 -0400</pubDate>
+      
+      <guid>https://mutur4.github.io/posts/linux-malware-development/process-injection/</guid>
+      <description>Process Injection is a defense evasion technique that is often employed within malware and entails a method of executing arbitrary code in the address space of a separate live process, therefore, this allows access to the process&amp;rsquo;s memory, system resources and possibly network resources.
+Execution via process injection may also provide a way to evade detection from security products (anti-viruses) because the execution is masked under a legitimate process.
+There are other useful purposes of process injection, this includes the user of debuggers to hook and debug applications, also some antivirus softwares inject into web browsers to monitor traffic and also block malicious web content.</description>
+    </item>
+    
+  </channel>
+</rss>

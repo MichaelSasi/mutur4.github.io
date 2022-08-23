@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GILBERT ROBERT M</title>
+    <link>https://mutur4.github.io/</link>
+    <description>Recent content on GILBERT ROBERT M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>sas</copyright>
+    <lastBuildDate>Tue, 23 Aug 2022 14:10:19 -0400</lastBuildDate><atom:link href="https://mutur4.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Process Injection - (Part 1)</title>
+      <link>https://mutur4.github.io/posts/linux-malware-development/process-injection/</link>
+      <pubDate>Sun, 21 Aug 2022 04:02:29 -0400</pubDate>
+      
+      <guid>https://mutur4.github.io/posts/linux-malware-development/process-injection/</guid>
+      <description>Process Injection is a defense evasion technique that is often employed within malware and entails a method of executing arbitrary code in the address space of a separate live process, therefore, this allows access to the process&amp;rsquo;s memory, system resources and possibly network resources.
+Execution via process injection may also provide a way to evade detection from security products (anti-viruses) because the execution is masked under a legitimate process.
+There are other useful purposes of process injection, this includes the user of debuggers to hook and debug applications, also some antivirus softwares inject into web browsers to monitor traffic and also block malicious web content.</description>
+    </item>
+    
+    <item>
+      <title>Sig-Return Oriented Programming (SROP)</title>
+      <link>https://mutur4.github.io/posts/binary-exploitation/srop/</link>
+      <pubDate>Sun, 06 Mar 2022 20:12:00 +0300</pubDate>
+      
+      <guid>https://mutur4.github.io/posts/binary-exploitation/srop/</guid>
+      <description>This is a yet another binary exploitation attack that is somewhat similar to return-oriented-programming (ROP) and to understand how this works, we first need to understand how C signals work.
+Signals in C Each signal has a current disposition and this is used to determine how a process behaves when it is delivered a signal. The following is used to specify the default disposition for each signal.
+- Term : The default action is to terminate the process - Ign: The default action is to ignore the process	- Core: This is used to ignore the process and dump core (core dump file): Some of the signals, their default actions is to terminate and produce a core dump file.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://mutur4.github.io/about/</link>
+      <pubDate>Tue, 01 Feb 2022 22:36:46 +0300</pubDate>
+      
+      <guid>https://mutur4.github.io/about/</guid>
+      <description>$ whoami  ✅ CCNA 200-301 ✅ Offensive Security Consultant ☑️ CTF Player @fr334aks ☑️ I use backspace for indentation 🤡 ☑️ .... </description>
+    </item>
+    
+    <item>
+      <title>Pwnkit (Local Priv Escalation)</title>
+      <link>https://mutur4.github.io/posts/exploit-development/pwnkit/</link>
+      <pubDate>Tue, 01 Feb 2022 22:36:46 +0300</pubDate>
+      
+      <guid>https://mutur4.github.io/posts/exploit-development/pwnkit/</guid>
+      <description>CVE-2021-4034 (PWNKIT - Linux Privilege Escalation) This is a local linux privilege escalation in polkit&amp;rsquo;s pkexec that affects almost every linux distribution. That means that any user can become root when they exploit this vulnerability. Today we are going to look at the effects of OOB (out-of-bounds) read and write and how they can be critical.This was a vulnerablity that was discovered by the security company Qualys.
+ Recap What is an OOB vulneraility?</description>
+    </item>
+    
+  </channel>
+</rss>
